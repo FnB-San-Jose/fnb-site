@@ -73,11 +73,6 @@ const Header = () => {
                       <a target="_blank"><FaEnvelope /></a>
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href="/">
-                      <a target="_blank"><FaStaylinked /></a>
-                    </Link>
-                  </li> */}
                   <li>
                     <Link href="https://www.instagram.com/sanjosefoodnotbombs/?hl=en">
                       <a target="_blank"><FaInstagram /></a>
