@@ -15,8 +15,7 @@ module.exports = withBundleAnalyzer({
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
   images: {
-    disableStaticImages: true,
-    loader: 'akamai',
+    loader: 'vercel',
     path: '/assets/images/main-image.png',
   },
 });
