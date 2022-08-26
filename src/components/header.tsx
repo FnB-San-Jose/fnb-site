@@ -69,7 +69,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link href="mailto:sanjosefnb@protonmail.com">
                       <a target="_blank"><FaEnvelope /></a>
                     </Link>
                   </li>
