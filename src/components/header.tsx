@@ -16,11 +16,13 @@ const Header = () => {
     <header>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div className="flex items-top">
-          <Image
-            src="/assets/images/fnb-logo.png"
-            width={150}
-            height={150}
-          />
+          <div className="hidden sm:block">
+            <Image
+              src="/assets/images/fnb-logo.png"
+              width={150}
+              height={150}
+            />
+          </div>
           <div className="w-full mt-5">
             <div className="flex flex-wrap justify-between items-center w-full border-b border-gray-600">
               <div className="flex items-center">
