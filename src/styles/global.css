@@ -1,0 +1,46 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+@font-face {
+  font-family: "timeburner-regular";
+  src: url("../../public/assets/fonts/timeburnernormal.ttf");
+}
+
+@font-face {
+  font-family: "timeburner-bold";
+  src: url("../../public/assets/fonts/timeburnerbold.ttf");
+}
+
+@font-face {
+  font-family: "manrope-regular";
+  src: url("../../public/assets/fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: "manrope-light";
+  src: url("../../public/assets/fonts/Manrope-Light.ttf");
+}
+
+@font-face {
+  font-family: "manrope-extra-light";
+  src: url("../../public/assets/fonts/Manrope-ExtraLight.ttf");
+}
