@@ -1,5 +1,4 @@
 import Calendar from '@/components/calendar';
-import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 import Image from 'next/image';

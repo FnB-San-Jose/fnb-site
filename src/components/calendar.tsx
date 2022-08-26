@@ -201,21 +201,20 @@ const Calendar = () => {
     </div>
   )
 }
-
-function Meeting({ meeting }) {
-  let startDateTime = parseISO(meeting.startDatetime)
-  let endDateTime = parseISO(meeting.endDatetime)
+function Meeting(prop: any) {
+  let startDateTime = parseISO(prop.meeting.startDatetime)
+  let endDateTime = parseISO(prop.meeting.endDatetime)
 
   return (
     <li className="flex items-center px-4 py-2 space-x-4 group rounded-xl">
       <div className="flex-auto">
-        <p className="text-gray-900">{meeting.name}</p>
+        <p className="text-gray-900">{prop.meeting.name}</p>
         <p className="mt-0.5">
-          <time dateTime={meeting.startDatetime}>
+          <time dateTime={prop.meeting.startDatetime}>
             {format(startDateTime, 'h:mm a')}
           </time>{' '}
           -{' '}
-          <time dateTime={meeting.endDatetime}>
+          <time dateTime={prop.meeting.endDatetime}>
             {format(endDateTime, 'h:mm a')}
           </time>
         </p>

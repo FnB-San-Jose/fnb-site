@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { AppConfig } from '@/utils/AppConfig';
-import { FaFacebook, FaEnvelope, FaInstagram, FaStaylinked } from 'react-icons/fa';
+import { FaFacebook, FaEnvelope, FaInstagram } from 'react-icons/fa';
 
 const Header = () => {
   const [active, setActive] = useState(false);
