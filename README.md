@@ -57,6 +57,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93d43fe8-6d04-4e7d-a391-7b8dfe6703e8/deploy-status)](https://app.netlify.com/sites/sjfoodnotbombs/deploys)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
