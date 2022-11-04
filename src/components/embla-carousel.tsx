@@ -4,19 +4,21 @@ import { DotButton, NextButton, PrevButton } from './embla-carousel-buttons'
 
 import Image from 'next/image';
 
+import media1 from "public/assets/images/media-1.png";
+import media2 from "public/assets/images/media-2.png";
+import media3 from "public/assets/images/media-3.png";
+import media4 from "public/assets/images/media-4.png";
+import media5 from "public/assets/images/media-5.png";
+import media6 from "public/assets/images/media-6.png";
+
 type PropType = {
   options?: EmblaOptionsType
   slides: ReactNode[]
 }
 
-export const media = [
-  "public/assets/images/media-1.png",
-  "public/assets/images/media-2.png",
-  "public/assets/images/media-3.png",
-  "public/assets/images/media-4.png",
-  "public/assets/images/media-5.png",
-  "public/assets/images/media-6.png"
-];
+
+
+export const media = [media1, media2, media3, media4, media5, media6];
 export const mediaByIndex = (index: number) => media[index % media.length]!;
 
 const EmblaCarousel = (props: PropType) => {
