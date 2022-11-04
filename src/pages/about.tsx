@@ -1,7 +1,11 @@
+import EmblaCarousel from '@/components/embla-carousel';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 import Image from 'next/image';
+
+const SLIDE_COUNT = 6;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 const About = () => (
   <Main meta={<Meta title="About Us" description="" />}>
@@ -25,13 +29,9 @@ const About = () => (
             height={150}
           />
         </div>
-        <div className="flex justify-between">
-          <div className="hidden md:flex justify-center items-center w-1/2">
-            <Image
-              src="/assets/images/fnb-logo.png"
-              width={150}
-              height={150}
-            />
+        <div className="flex">
+          <div>
+            <EmblaCarousel slides={slides} />
           </div>
           <div className="text-black my-20 p-3 md:w-1/2 sm:w-full font-manrope_extra_light md:mx-20 mx-5 border-r-8 border-orange-200">
             So many markets and restaurants throw away food everyday that could have gone to people that really need it.
