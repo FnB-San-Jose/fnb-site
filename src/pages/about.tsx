@@ -22,15 +22,11 @@ const About = () => (
             countries in the world, but people still go hungry even within the U.S.
           </div>
         </div>
-        <div className="md:hidden md:block flex justify-center items-center">
-          <Image
-            src="/assets/images/fnb-logo.png"
-            width={150}
-            height={150}
-          />
+        <div className="md:hidden md:block justify-center items-center">
+          <EmblaCarousel slides={slides} />
         </div>
-        <div className="flex">
-          <div>
+        <div className="flex justify-between">
+          <div className="hidden md:block justify-center items-center w-1/2">
             <EmblaCarousel slides={slides} />
           </div>
           <div className="text-black my-20 p-3 md:w-1/2 sm:w-full font-manrope_extra_light md:mx-20 mx-5 border-r-8 border-orange-200">
