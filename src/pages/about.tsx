@@ -2,8 +2,6 @@ import EmblaCarousel from '@/components/embla-carousel';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
-import Image from 'next/image';
-
 const SLIDE_COUNT = 6;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
